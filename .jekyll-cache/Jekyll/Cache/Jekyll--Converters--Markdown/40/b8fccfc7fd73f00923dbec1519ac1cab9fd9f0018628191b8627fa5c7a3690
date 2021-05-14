@@ -1,0 +1,9 @@
+I"<p>Sorry, we can’t find that page that you’re looking for.<br />
+Head back to the <a href="/">root</a>.</p>
+
+<p><a href="/"><img src="/images/404.png" alt="Goodbye, friend" style="width: 400px;" /></a></p>
+
+<p>```sh
+root@v1llur1:~ # echo ‘you are lost my friend’
+``</p>
+:ET
