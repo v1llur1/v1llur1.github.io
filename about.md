@@ -8,7 +8,7 @@ permalink: /about/
 **`I'm an Indian security researcher.`**\
 **`I'm a cyberpunk.`**
 
-- **`I do hacking`**
+- **`I do pwn`**
 - **`I do pentesting`**
 - **`I play CTFs`**
 - **`I love to learn about new things in infosec community`**
