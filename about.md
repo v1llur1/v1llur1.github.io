@@ -35,7 +35,6 @@ permalink: /about/
     + **`OTW`**
         - **`Natas`**
         - **`Bandit`**
-    + **`H1`**
     + **`HTB`**
     + **`THM`**
 - **`Connect me through below platforms for my further updates`**
