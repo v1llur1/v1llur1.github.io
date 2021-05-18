@@ -1,0 +1,18 @@
+I"W<p>In this writeup I will be explaining about my bash <a href="https://github.com/v1llur1/automated-exploit-downloader">script</a>.</p>
+
+<h3 id="about-the-script">About the script</h3>
+
+<p>I have coded my bash script for automatically downloading multiple exploits directly to the local machine based on given bash argument with single enter key from official <a href="https://exploit-db.com">exploit-db</a>.</p>
+
+<p>My script deals with exploits from exploit-db so make sure that <a href="https://github.com/offensive-security/exploitdb">searchsploit</a> is installed in the machine.</p>
+
+<h3 id="short-demo-clip">Short Demo Clip</h3>
+
+<p><a href="http://www.youtube.com/watch?v=3tg7W1Sg9_Y" title="click to watch"><img src="http://img.youtube.com/vi/3tg7W1Sg9_Y/0.jpg" alt="automated exploit downloader" /></a></p>
+
+<p><strong>P.S: Searchsploit comes by default in Kali Linux.</strong></p>
+
+<p><code class="language-plaintext highlighter-rouge">You can connect me through the below platforms for my further updates</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">Happy Learning !</code></p>
+:ET

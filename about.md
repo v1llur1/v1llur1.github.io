@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-**`Hi, my name is Jayavamsi Villuri aka v1llur1.`**\
+**`Hi, my name is Jayavamsi Villuri a.k.a v1llur1.`**\
 **`I'm an Indian security researcher.`**\
 **`I'm a cyberpunk.`**
 
@@ -21,8 +21,8 @@ permalink: /about/
 
 **`Apart from my infosec life :`**
 
-- **`I do skating`**
-- **`I do swimming`**
+- **`I do skate`**
+- **`I do swimm`**
 - **`I do nunchucks`**
 - **`I do adventures`**
 - **`I do love to explore`**
@@ -35,6 +35,7 @@ permalink: /about/
     + **`OTW`**
         - **`Natas`**
         - **`Bandit`**
+    + **`H1`**
     + **`HTB`**
     + **`THM`**
 - **`Connect me through below platforms for my further updates`**
@@ -42,4 +43,5 @@ permalink: /about/
 ### Connect me
 
 [twitter](https://twitter.com/v1llur1)\
-[instagram](https://instagram.com/v1llur1)
+[instagram](https://instagram.com/v1llur1)\
+[session ID](05fbafd6532b093148fb3852e21d5fd239ec85ec8b0806bf819d4e88f9f125ab52)
