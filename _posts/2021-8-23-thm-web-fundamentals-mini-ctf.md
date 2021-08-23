@@ -10,8 +10,6 @@ In this writeup I will be solving the mini CTF from [Web Fundamentals room](http
 I hope you've completed the previous tasks. This writeup is only going to be about the mini CTF i.e., Task-5.\
 Also, flags have been blurred because of THM's writeup policy. I hope you'll respect that.
 
-> ✔️ But still you can find the process to find the flags from this blog. Try and get your flags.
-
 ### Mini CTF 
 
 > ⚠️ My machine IP from below may differ with yours.
