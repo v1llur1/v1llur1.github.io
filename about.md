@@ -8,7 +8,7 @@ permalink: /about/
 **`I'm an Indian security researcher.`**\
 **`I'm a cyberpunk.`**
 
-- **`I do hacking`**
+- **`I do pwn`**
 - **`I do pentesting`**
 - **`I play CTFs`**
 - **`I love to learn about new things in infosec community`**
@@ -35,7 +35,6 @@ permalink: /about/
     + **`OTW`**
         - **`Natas`**
         - **`Bandit`**
-    + **`H1`**
     + **`HTB`**
     + **`THM`**
 - **`Connect me through below platforms for my further updates`**
