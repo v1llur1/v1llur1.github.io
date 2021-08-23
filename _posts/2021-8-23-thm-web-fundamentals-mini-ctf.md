@@ -31,9 +31,9 @@ There's a web server running on http://MACHINE_IP:8081. Connect to it and get th
   HINT : You can perform a GET request with curl, or your web browser</summary>
 <br>
 <img src="../images/thm-web-fundamentals/flag1.jpeg" alt="Flag 1">
-<!---
-dGhtezE2MjUyMGJlYzkyNWJkNzk3OWU5YWU2NWE3MjVmOTlmfQ==
---->
+<!--
+(dGhtezE2MjUyMGJlYzkyNWJkNzk3OWU5YWU2NWE3MjVmOTlmfQ==)
+-->
 </details>
 
 ---
@@ -43,9 +43,9 @@ dGhtezE2MjUyMGJlYzkyNWJkNzk3OWU5YWU2NWE3MjVmOTlmfQ==
   HINT : cURL is probably the easiest way to do this, use -X POST and --data < whatever you want to send > </summary>
 <br>
 <img src="../images/thm-web-fundamentals/flag2.jpeg" alt="Flag 2">
-<!---
+<!--
 dGhtezM1MTdjOTAyZTIyZGVmOWM2ZTA5Yjk5YTkwNDBiYTA5fQ==
---->
+-->
 </details>
 
 ---
@@ -55,9 +55,9 @@ dGhtezM1MTdjOTAyZTIyZGVmOWM2ZTA5Yjk5YTkwNDBiYTA5fQ==
   HINT : The web server will give you a cookie, check them in Firefox dev tools after viewing the page </summary>
 <br>
 <img src="../images/thm-web-fundamentals/flag3.jpeg" alt="Flag 3">
-<!---
+<!--
 dGhtezkxYjFhYzI2MDZmMzZiOTM1ZjQ2NTU1ODIxM2Q3ZWJkfQ==
---->
+-->
 </details>
 
 ---
@@ -67,9 +67,9 @@ dGhtezkxYjFhYzI2MDZmMzZiOTM1ZjQ2NTU1ODIxM2Q3ZWJkfQ==
   HINT:Using Firefox dev tools, you can add a cookie. The Name and value should both be "flagpls". If you set the cookie in Firefox, it will only apply in Firefox. </summary>
 <br>
 <img src="../images/thm-web-fundamentals/flag4.jpeg" alt="Flag 4">
-<!---
+<!--
 dGhte2MxMGI1Y2I3NTQ2ZjM1OWQxOWM3NDdkYjJkMGY0N2IzfQ==
---->
+-->
 </details>
 
 ---
