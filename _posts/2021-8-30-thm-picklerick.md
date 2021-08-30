@@ -51,7 +51,7 @@ This Rick and Morty themed challenge requires you to exploit a webserver to find
 + After exploring I found two users on the machine **rick** and **ubuntu** at **/home** directory.
 + I checked for sudo privileges
 
-```sh
+```
 $ sudo -l
 Matching Defaults entries for www-data on <my-machine-ip>:
   env_reset, mail_badpass, secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin
@@ -59,7 +59,6 @@ Matching Defaults entries for www-data on <my-machine-ip>:
 User www-data may run the following commands on <my-machine-ip>:
   (ALL) NOPASSWD: ALL
 ```
-  
 > ✔️ ROOT 😉
 
 + I looked up for the files in **/root** directory and discovered a file called **3rd.txt**
@@ -68,5 +67,5 @@ User www-data may run the following commands on <my-machine-ip>:
 </details>
 
 ---
-  
+
 `You can connect me through the below platforms for my further updates`
