@@ -14,26 +14,30 @@ This Rick and Morty themed challenge requires you to exploit a webserver to find
 ---
 
 <details>
-<summary>What is the first ingredient Rick needs? </summary><br>
-  - After deploying and exploring the web application I found one **USERNAME** in the source code as **R1ckRul3s** <br>
-  - Now, I have enumerated the pages and discovered several pages like **login,**  **robots**.<br>
-  - In **/robots.txt** page I found one string **Wubbalubbadubdub**.<br>
-  - I used the gathered info as login data at **/login.php**.<br>
-  - Command panel was shown after successful login.<br>
-  - After listing contents on the web server through command panel (as www-data), I found few interesting files. One of the file was **Sup3rs3cretPick13Ingred.txt**<br>
-  - Finally, I found the first flag at **Sup3rs3cretPick13Ingred.txt** file which is `mr. meeseek hair`
+<summary>What is the first ingredient Rick needs? </summary>
+<br>
+
+- After deploying and exploring the web application I found one **USERNAME** in the source code as **R1ckRul3s**
+- Now, I have enumerated the pages and discovered several pages like **login,**  **robots**.
+- In **/robots.txt** page I found one string **Wubbalubbadubdub**.
+- I used the gathered info as login data at **/login.php**.
+- Command panel was shown after successful login.
+- After listing contents on the web server through command panel (as www-data), I found few interesting files. One of the file was **Sup3rs3cretPick13Ingred.txt**
+- Finally, I found the first flag at **Sup3rs3cretPick13Ingred.txt** file which is `mr. meeseek hair`
 
 </details>
 
 ---
 
 <details>
-<summary>What is the second ingredient Rick needs? </summary><br>
-  - I looked around other file paths for the second ingredient.<br>
-  - After exploring I found two users on the machine **rick** and **ubuntu**<br> at **/home** directory.<br>
-  - I looked in rick's directory and discovered a file called **second ingredients**<br>
-  - Commands like *cat*, *more* were not executing in the command panel. I have used *less* command to print out the contents of **second ingredients** file.<br>
-  - I have executed `**less '/home/rick/second ingredients'**` and got the second flag <code>1 jerry tear</code>
+<summary>What is the second ingredient Rick needs? </summary>
+<br>
+
+- I looked around other file paths for the second ingredient.
+- After exploring I found two users on the machine **rick** and **ubuntu**<br> at **/home** directory.
+- I looked in rick's directory and discovered a file called **second ingredients**
+- Commands like *cat*, *more* were not executing in the command panel. I have used *less* command to print out the contents of **second ingredients** file.
+- I have executed `**less '/home/rick/second ingredients'**` and got the second flag `1 jerry tear`
 
 </details>
 
@@ -42,9 +46,10 @@ This Rick and Morty themed challenge requires you to exploit a webserver to find
 <details>
 <summary>What is the final ingredient Rick needs? </summary>
 <br>
-- Its time to get the third ingredient.<br>
-- After exploring I found two users on the machine **rick** and **ubuntu**<br> at **/home**<br>
-- I checked for sudo privileges<br>
+
+- Its time to get the third ingredient.
+- After exploring I found two users on the machine **rick** and **ubuntu**<br> at **/home**
+- I checked for sudo privileges
 
 ```sh
 $ sudo -l
@@ -56,7 +61,8 @@ User www-data may run the following commands on <my-machine-ip>:
 ```
   
 ROOT 😉
-- I looked up for the files in **/root** directory and discovered a file called **3rd.txt** <br>
+
+- I looked up for the files in **/root** directory and discovered a file called **3rd.txt**
 - I have executed `**sudo less '/root/3rd.txt'**` and got the final flag `fleeb juice`
 
 </details>
