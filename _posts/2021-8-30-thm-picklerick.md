@@ -13,54 +13,47 @@ This Rick and Morty themed challenge requires you to exploit a webserver to find
 
 ---
 
-<details>
-<summary>What is the first ingredient Rick needs? </summary>
-<br>
-After deploying and exploring the web application I found one **USERNAME** in the source code as **R1ckRul3s**
+## What is the first ingredient Rick needs?
 
-Now, I have enumerated the pages and discovered several pages like **login,**  **robots**.
+- After deploying and exploring the web application I found one **USERNAME** in the source code as **R1ckRul3s**
 
-In **/robots.txt** page I found one string **Wubbalubbadubdub**.
+- Now, I have enumerated the pages and discovered several pages like **login,**  **robots**.
 
-I used the gathered info as login data at **/login.php**.
+- In **/robots.txt** page I found one string **Wubbalubbadubdub**.
 
-Command panel was shown after successful login.
+- I used the gathered info as login data at **/login.php**.
 
-After listing contents on the web server through command panel (as www-data), 
+- Command panel was shown after successful login.
+
+- After listing contents on the web server through command panel (as www-data), 
 I found few interesting files. One of the file was **Sup3rs3cretPick13Ingred.txt**
 
-Finally, I found the first flag at **Sup3rs3cretPick13Ingred.txt** file which is `mr. meeseek hair`
-
-</details>
+- Finally, I found the first flag at **Sup3rs3cretPick13Ingred.txt** file which is `mr. meeseek hair`
 
 ---
 
-<details>
-<summary>What is the second ingredient Rick needs? </summary>
-<br>
-I looked around other file paths for the second ingredient.
+## What is the second ingredient Rick needs?
 
-After exploring I found two users on the machine **rick** and **ubuntu** at /home directory.
+- I looked around other file paths for the second ingredient.
 
-I looked in rick's directory and discovered a file called **second ingredients**
+- After exploring I found two users on the machine **rick** and **ubuntu** at /home directory.
 
-Commands like *cat*, *more* were not executing in the command panel. 
+- I looked in rick's directory and discovered a file called **second ingredients**
+
+- Commands like *cat*, *more* were not executing in the command panel.\ 
 I have used *less* command to print out the contents of **second ingredients** file.
 
-I have executed `less '/home/rick/second ingredients'` and got the second flag `1 jerry tear`
-
-</details>
+- I have executed `less '/home/rick/second ingredients'` and got the second flag `1 jerry tear`
 
 ---
 
-<details>
-<summary>What is the final ingredient Rick needs? </summary>
-<br>
-Its time to get the third ingredient.
+## What is the final ingredient Rick needs? </summary>
 
-After exploring I found two users on the machine **rick** and **ubuntu** at **/home** directory.
+- Its time to get the third ingredient.
 
-I checked for sudo privileges
+- After exploring I found two users on the machine **rick** and **ubuntu** at **/home** directory.
+
+- I checked for sudo privileges
 
 ```sh
 $ sudo -l 
@@ -70,14 +63,10 @@ User www-data may run the following commands on <my-machine-ip>:
 
 > ✔️ ROOT 😉
 
-I looked up for the files in **/root** directory and discovered a file called **3rd.txt**
+- I looked up for the files in **/root** directory and discovered a file called **3rd.txt**
 
-I have executed `sudo less '/root/3rd.txt'` and got the final flag `fleeb juice`
-
-</details>
+- I have executed `sudo less '/root/3rd.txt'` and got the final flag `fleeb juice`
 
 ---
-
-
 
 `You can connect me through the below platforms for my further updates`
