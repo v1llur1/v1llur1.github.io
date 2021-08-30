@@ -65,7 +65,7 @@ User www-data may run the following commands on <my-machine-ip>:
 
 - I looked up for the files in **/root** directory and discovered a file called **3rd.txt**
 
-- I have executed **`sudo less '/root/3rd.txt'`** and got the final flag `fleeb juice`
+- I have executed __`sudo less '/root/3rd.txt'`__ and got the final flag `fleeb juice`
 
 ---
 
