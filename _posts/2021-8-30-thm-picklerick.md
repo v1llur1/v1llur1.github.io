@@ -28,7 +28,7 @@ This Rick and Morty themed challenge requires you to exploit a webserver to find
 - After listing contents on the web server through command panel (as www-data), 
 I found few interesting files. One of the file was **Sup3rs3cretPick13Ingred.txt**
 
-- Finally, I found the first flag at **Sup3rs3cretPick13Ingred.txt** file which is `mr. meeseek hair`
+- Finally, I found the first flag at **Sup3rs3cretPick13Ingred.txt** file which is  `mr. meeseek hair`
 
 ---
 
@@ -43,7 +43,7 @@ I found few interesting files. One of the file was **Sup3rs3cretPick13Ingred.txt
 - Commands like *cat*, *more* were not executing in the command panel.\ 
 I have used *less* command to print out the contents of **second ingredients** file.
 
-- I have executed __less "/home/rick/second ingredients"__ and got the second flag `1 jerry tear`
+- I have executed __`less "/home/rick/second ingredients"`__ and got the second flag  `1 jerry tear`
 
 ---
 
