@@ -10,12 +10,9 @@ In this writeup I will be solving the mini CTF from [Web Fundamentals room](http
 I hope you've completed the previous tasks. This writeup is only going to be about the mini CTF i.e., Task-5.\
 Also, flags have been blurred because of THM's writeup policy. I hope you'll respect that.
 
-Also, one more thing I wanna tell you people is that the flags have been blurred officially.\
-But still you can find the flags from this blog. Favor from my side to you people !
-
 ### Mini CTF 
 
-!! My machine IP from below may differ with yours.
+> ⚠️ My machine IP from below may differ with yours.
 
 There's a web server running on http://MACHINE_IP:8081. Connect to it and get the flags!
 
@@ -27,22 +24,22 @@ There's a web server running on http://MACHINE_IP:8081. Connect to it and get th
 ---
 
 <details>
-<summary>What's the GET flag?\
-_HINT:You can perform a GET request with curl, or your web browser_</summary>
+<summary>What's the GET flag?<br>
+  HINT : You can perform a GET request with curl, or your web browser</summary>
 <br>
-![Flag 1](images/thm-web-fundamentals/flag1.jpeg)
+<img src="../images/thm-web-fundamentals/flag1.jpeg" alt="Flag 1">
 <!---
-dGhtezE2MjUyMGJlYzkyNWJkNzk3OWU5YWU2NWE3MjVmOTlmfQ==
+(dGhtezE2MjUyMGJlYzkyNWJkNzk3OWU5YWU2NWE3MjVmOTlmfQ==)
 --->
 </details>
 
 ---
 
 <details>
-<summary>What's the POST flag?\
-_HINT:cURL is probably the easiest way to do this, use -X POST and --data < whatever you want to send >_</summary>
+<summary>What's the POST flag?<br>
+  HINT : cURL is probably the easiest way to do this, use -X POST and --data < whatever you want to send > </summary>
 <br>
-![Flag 2](images/thm-web-fundamentals/flag2.jpeg)
+<img src="../images/thm-web-fundamentals/flag2.jpeg" alt="Flag 2">
 <!---
 dGhtezM1MTdjOTAyZTIyZGVmOWM2ZTA5Yjk5YTkwNDBiYTA5fQ==
 --->
@@ -51,10 +48,10 @@ dGhtezM1MTdjOTAyZTIyZGVmOWM2ZTA5Yjk5YTkwNDBiYTA5fQ==
 ---
 
 <details>
-<summary>What's the "Get a cookie" flag?\
-_HINT:The web server will give you a cookie, check them in Firefox dev tools after viewing the page_</summary>
+<summary>What's the "Get a cookie" flag?<br>
+  HINT : The web server will give you a cookie, check them in Firefox dev tools after viewing the page </summary>
 <br>
-![Flag 3](images/thm-web-fundamentals/flag3.jpeg)
+<img src="../images/thm-web-fundamentals/flag3.jpeg" alt="Flag 3">
 <!---
 dGhtezkxYjFhYzI2MDZmMzZiOTM1ZjQ2NTU1ODIxM2Q3ZWJkfQ==
 --->
@@ -63,10 +60,10 @@ dGhtezkxYjFhYzI2MDZmMzZiOTM1ZjQ2NTU1ODIxM2Q3ZWJkfQ==
 ---
 
 <details>
-<summary>What's the "Set a cookie" flag?\
-_HINT:Using Firefox dev tools, you can add a cookie. The Name and value should both be "flagpls". If you set the cookie in Firefox, it will only apply in Firefox._</summary>
+<summary>What's the "Set a cookie" flag?<br>
+  HINT:Using Firefox dev tools, you can add a cookie. The Name and value should both be "flagpls". If you set the cookie in Firefox, it will only apply in Firefox. </summary>
 <br>
-![Flag 4](images/thm-web-fundamentals/flag4.jpeg)
+<img src="../images/thm-web-fundamentals/flag4.jpeg" alt="Flag 4">
 <!---
 dGhte2MxMGI1Y2I3NTQ2ZjM1OWQxOWM3NDdkYjJkMGY0N2IzfQ==
 --->
