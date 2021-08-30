@@ -43,7 +43,7 @@ I found few interesting files. One of the file was **Sup3rs3cretPick13Ingred.txt
 - Commands like *cat*, *more* were not executing in the command panel.\ 
 I have used *less* command to print out the contents of **second ingredients** file.
 
-- I have executed `**less '/home/rick/second ingredients'**` and got the second flag `1 jerry tear`
+- I have executed **less '/home/rick/second ingredients'** and got the second flag `1 jerry tear`
 
 ---
 
@@ -65,7 +65,7 @@ User www-data may run the following commands on <my-machine-ip>:
 
 - I looked up for the files in **/root** directory and discovered a file called **3rd.txt**
 
-- I have executed `**sudo less '/root/3rd.txt'**` and got the final flag `fleeb juice`
+- I have executed **`sudo less '/root/3rd.txt'`** and got the final flag `fleeb juice`
 
 ---
 
