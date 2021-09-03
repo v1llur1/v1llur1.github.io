@@ -3,7 +3,7 @@ layout: post
 title: Blue [TryHackMe]
 tags: thm
 ---
-In this writeup I will be solving Blue.
+In this writeup I will be solving [Blue.](https://tryhackme.com/room/blue)
 
 ### CTF Theme
 
@@ -32,3 +32,5 @@ But keeping eternal blue in mind we will go further with the one having SMB expl
 </details>
 
 ---
+
+`You can connect me through the below platforms for my further updates`
