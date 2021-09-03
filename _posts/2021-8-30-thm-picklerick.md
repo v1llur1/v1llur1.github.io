@@ -53,15 +53,9 @@ I have used *less* command to print out the contents of **second ingredients** f
 - Its time to get the third ingredient.
 
 - After exploring I found two users on the machine **rick** and **ubuntu** at **/home** directory.
-<<<<<<< HEAD
 
 - I checked for `sudo` privileges
 
-=======
-
-- I checked for `sudo` privileges
-
->>>>>>> b47f86550dc10981a872cd65ff3d1db393f56b86
 ```sh
 $ sudo -l 
 User www-data may run the following commands on <my-machine-ip>:
