@@ -22,10 +22,8 @@ permalink: /about/
 **`Apart from my infosec life :`**
 
 - **`I do skate`**
-- **`I do swimm`**
-- **`I do nunchucks`**
 - **`I do adventures`**
-- **`I do love to explore`**
+- **`I do explore`**
 
 ## About My Website
 
@@ -39,8 +37,7 @@ permalink: /about/
     + **`THM`**
 - **`Connect me through below platforms for my further updates`**
 
-### Connect me
+### Connect Me
 
 [twitter](https://twitter.com/v1llur1)\
 [instagram](https://instagram.com/v1llur1)\
-[session ID](05fbafd6532b093148fb3852e21d5fd239ec85ec8b0806bf819d4e88f9f125ab52)
