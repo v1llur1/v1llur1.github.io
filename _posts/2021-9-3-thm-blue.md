@@ -15,26 +15,29 @@ But this room is mainly focussed on ms17-010 exploit popularly known as eternal 
 ### Recon
 
 <details>
-<summary>Scan the machine</summary>
-nmap -sV -vv --script vuln machine-ip
-</details>
-
-<details>
-<summary>How many ports are open with a port number under 1000?</summary>
-After you execute that above command you'll find `3` open ports (under 1000)
-</details>
-
-<details>
-<summary>What is this machine vulnerable to? (Answer in the form of: ms??-???, ex: ms08-067)</summary>
-Under nmap results you will discover that it is vulnerable to two scripts.
+<summary>Scan the machine</summary><br>
   
-But keeping eternal blue in mind we will go further with the one having SMB exploit (ms17-010).
+  nmap -sV -vv --script vuln machine-ip<br>
+
+</details>
+
+<details>
+<summary>How many ports are open with a port number under 1000?</summary><br>
+  
+  After you execute that above command you'll find `3` open ports (under 1000)<br>
+
+</details>
+
+<details>
+<summary>What is this machine vulnerable to? (Answer in the form of: ms??-???, ex: ms08-067)</summary><br>
+  
+  Under nmap results you will discover that it is vulnerable to two scripts.<br>
+  But keeping eternal blue in mind we will go further with the one having SMB exploit (ms17-010).<br>
+
 </details>
 
 ---
 
 ###
 
-```sh
-$ You can connect me through the below platforms for my further updates
-```
+__`You can connect me through the below platforms for my further updates`__
