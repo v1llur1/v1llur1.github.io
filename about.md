@@ -40,4 +40,4 @@ permalink: /about/
 ### Connect Me
 
 [twitter](https://twitter.com/v1llur1)\
-[instagram](https://instagram.com/v1llur1)\
+[instagram](https://instagram.com/v1llur1)
